@@ -40,7 +40,7 @@ app.post("/", function(req,res){
   const options = {
     method: "POST",
     // Now we have to add authentication
-    auth: "anurag:e35deda13b02b547f48d9bcf1b64b039b-us7"
+    auth: "anurag:35deda13b02b547f48d9bcf1b64b039b-us7"
   };
   const request = https.request(url, options , function(response){
     // The folling code responds by sending html page
